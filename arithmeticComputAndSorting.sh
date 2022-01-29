@@ -6,7 +6,7 @@ read -p "Enter first input :" a
 read -p "Enter second input:" b
 read -p "Enter third input :" c
 
-#COMPUTE ARITHMETIC OPERATION
+
 result1=`echo "scale=2;$a + $b * $c" | bc`
 echo "Result:" $result1
 
@@ -50,7 +50,7 @@ function descendingOrderSort()
 echo "To data descending order:"${array[@]}
 }
 
-#TO FUNCTION CALL FOR SORTING IN DECENDING ORDER
+
 descendingOrderSort ${array[@]}
 
  
